@@ -7,3 +7,21 @@ Status of Build
 
 ## How to install
 Install-Package LibraryCalc04 -Version 1.0.2
+
+## How to use
+
+'''cs
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var calculadora = new Calculadora();
+
+            var result = calculadora.Soma(10, 50, 10);
+
+            Console.WriteLine(result);
+        }
+    }
+
+***
