@@ -9,8 +9,7 @@ Status of Build
 Install-Package LibraryCalc04 -Version 1.0.2
 
 ## How to use
-
-'''cs
+```cs
 
     class Program
     {
@@ -23,5 +22,4 @@ Install-Package LibraryCalc04 -Version 1.0.2
             Console.WriteLine(result);
         }
     }
-
-***
+```
