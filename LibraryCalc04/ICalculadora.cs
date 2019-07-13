@@ -41,5 +41,12 @@ namespace LibraryCalc04
         /// <param name="valor3"></param>
         /// <returns></returns>
         double Soma(double valor1, double valor2, double valor3);
+
+        /// <summary>
+        /// Subtrai 3 Valor
+        /// </summary>
+        /// <param name="valor1"></param>
+        /// <param name="valor2"></param>
+        double Subtra(double valor1, double valor2, double Valor3);
     }
 }

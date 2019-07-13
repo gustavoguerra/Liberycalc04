@@ -29,5 +29,9 @@ namespace LibraryCalc04
         {
             return valor1 - valor2;
         }
+        public double Subtra(double valor1, double valor2, double valor3)
+        {
+            return valor1 - valor2 - valor3;
+        }
     }
 }

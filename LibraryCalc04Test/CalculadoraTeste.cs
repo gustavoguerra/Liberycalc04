@@ -73,5 +73,19 @@ namespace LibraryCalc04Test
 
             Assert.True((x + y + z) == result);
         }
+
+        [Theory]
+        [InlineData(10, 15, 2)]
+        [InlineData(4, 1, -74)]
+        [InlineData(-10, -15, -69)]
+        [InlineData(10, -15 , 96)]
+        public void SubSucesso2(double x, double y, double z)
+        {
+            var calculadora = new Calculadora();
+
+            var result = calculadora.Subtra(x, y, z);
+
+            Assert.True((x - y - z) == result);
+        }
     }
 }
